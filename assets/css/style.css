@@ -215,4 +215,23 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media only screen and (max-width: 640px) {
+    #main-container {
+      padding-top: 200px;
+    }
+
+    .auth-image {
+      width: 95%;
+    }
+  }
   
+  @media only screen and (max-width: 768px) {
+    .auth-image {
+      width: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+
+  }
